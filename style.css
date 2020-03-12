@@ -1,9 +1,7 @@
 *{
   font-family: 'EB Garamond', serif;
-  box-sizing: border-box;
-  border-width: 15px;
-  border-color: #a37800;
 }
+
 body{
   background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg");
   background-repeat: repeat;
@@ -11,41 +9,77 @@ body{
 }
 
 .titleContainer{
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: #a37800;
+  border-style: solid;
   font-size: 30px;
   color: #a37800;
-  background-color: #ffffff;
-  padding: 20px;
+  background-color: rgba(242,243,217, 0.85);
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin:50px;
+  margin-left: 80px;
+  margin-right: 80px;
   display: flex;
   justify-content: center;
 }
 
-.headline {
+.headline{
   color: #a37800;
   font-size: 15px;
-  background-color: #ffffff;
-  padding: 20px;
-  margin:50px;
-  display: flex;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: #a37800;
+  border-style: solid;
+  border-bottom: none;
+  background-color: rgba(242,243,217, 0.85);
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 0px;
+  display:flex;
   justify-content: center;
 }
 
 .cardSpread{
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: #a37800;
+  border-style: solid;
   margin:50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  border-top: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #ffffff;
-  align-items: space-between;
+  background-color: rgba(242,243,217, 0.85);
   padding: 20px;
 }
 
+.cardSpread img{
+  padding-bottom: 20px;
+}
+
 .cardChoice{
-  background-color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  margin:50px;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: #a37800;
+  border-style: solid;
+  background-color: rgba(242,243,217, 0.85);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  border-top: none;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -54,72 +88,71 @@ body{
   margin-left: 15px;
 }
 #two{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #three{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #four{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #five{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #six{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #seven{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #eight{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #nine{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #ten{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #eleven{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #twelve{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #thirteen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #fourteen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #fifteen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #sixteen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #seventeen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #eighteen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #nineteen{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #twenty{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #twentyone{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 #twentytwo{
-  margin-left: -150px;
+  margin-left: -153px;
 }
 
 .nextPage {
   font-size: 30px;
-  color: #ffffff;
   margin-left: 500px;
   margin-right: 500px;
   background-color: #a37800;
@@ -128,19 +161,55 @@ body{
   justify-content: center;
 }
 
+.nextPage a{
+  color: #F2F3D9;
+}
+
+.nextPage a:link{
+  text-decoration: none;
+}
+
+.nextPage:hover{
+  background-color: #826000;
+}
+
 .about {
-  color: #a37800;;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: #a37800;
+  border-style: solid;
+  color: #a37800;
   font-size: 30px;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: rgba(242,243,217, 0.85);
   padding: 5px;
-  margin: 50px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin:50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.about a{
+  color: #a37800;
 }
 
 .cardsPicked{
-  background-color: #ffffff;
-  padding: 20px;
-  margin:50px;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: #a37800;
+  border-style: solid;
+  background-color: rgba(242,243,217, 0.85);
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  border-top: none;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right:20px;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -149,7 +218,7 @@ body{
 
 .backtoReading{
   font-size: 30px;
-  color: #ffffff;
+  color: #F2F3D9;
   margin-top: 50px;
   margin-left: 500px;
   margin-right: 500px;
@@ -159,11 +228,20 @@ body{
   justify-content: center;
 }
 
+.backtoReading a{
+  color: #F2F3D9;
+}
 
+.backtoReading a:link{
+  text-decoration: none;
+}
+
+.backtoReading:hover{
+  background-color: #826000;
+}
 
 .readCards{
   font-size: 30px;
-  color: #ffffff;
   margin-left: 500px;
   margin-right: 500px;
   background-color: #a37800;
@@ -172,9 +250,21 @@ body{
   justify-content: center;
 }
 
+.readCards a{
+  color: #F2F3D9;
+}
+
+.readCards a:link{
+  text-decoration: none;
+}
+
+.readCards:hover{
+  background-color: #826000;
+}
+
 .backtoSpread{
   font-size: 30px;
-  color: #ffffff;
+  color: #F2F3D9;
   margin-top: 30px;
   margin-left: 500px;
   margin-right: 500px;
@@ -184,26 +274,66 @@ body{
   justify-content: center;
 }
 
+.backtoSpread a {
+  color: #F2F3D9;
+}
+
+.backtoSpread a:link{
+  text-decoration: none;
+}
+
+.backtoSpread:hover{
+  background-color: #826000;
+}
+
 #cardone{
   margin: 10px;
+
+}
+
+.cardsPicked img{
+    display: block;
+  margin-right:auto;
+  margin-left: auto;
+}
+
+#cardone h1{
+  display: flex;
+  justify-content: center;
 }
 
 #cardtwo{
   margin: 10px;
 }
 
+#cardtwo h1{
+  display: flex;
+  justify-content: center;
+}
+
 #cardthree{
   margin: 10px;
 }
 
+#cardthree h1{
+  display: flex;
+  justify-content: center;
+}
+
 #past{
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 20px;
 }
 
 #present{
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 20px;
 }
 
 #future{
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 20px;
 }
